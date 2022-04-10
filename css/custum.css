@@ -13,6 +13,8 @@
    
     object-fit: cover;
     width: 20rem;
+    padding:1.2rem;
+    padding-bottom:1.6rem;
   height: 10rem;
 }
 .nav-bar .nav {
@@ -47,6 +49,7 @@
     background-image: url("../img/hero-img.jpg");
     background-repeat: no-repeat;
     height: 85vh;
+    width: 100%;
     background-position: center;
     position: relative;
     bottom: 1rem;
@@ -55,35 +58,46 @@
     margin: 0;
 }
 .hero-desc {
-    background-color: rgba(255, 255, 255,0.6);
-    position: relative;
-    height: 35vh;
-    top: 30%;
-    width: 100vh;
-    color: black;
-    left: 50%;
+  background-color: rgba(255, 255, 255,0.6);
+  position: relative;
+  height: 40vh;
+  top: 35%;
+  width: 50%;
+  color: black;
+  left: 30%;
+
+
+   
 }
 .hero-desc h1 {
+  padding-left: 3.2rem;
+  padding-top: 3.2rem;
+  padding-bottom: 1.2rem;
     font-size: 4.4rem;
-    margin: 1rem;
+   
     line-height: 1.05;
     letter-spacing: -0.1rem;
 }
 .hero-desc p {
     font-size: 1.8rem;
-  margin: 1rem;
-  margin-bottom: 4.8rem;
+ 
+   padding-left: 3.2rem;
+  
+   padding-bottom: 2.4rem;
 }
 .hero-desc a {
-    position: relative;
-  margin: 10px;
-  bottom: 12px;
+  display: inline-block;
+   
+  margin-left: 30%;
+ 
+  margin-bottom: 1.6rem;
+ 
   background-color: black;
-  padding: 12px 18px;
+  padding: 1.2rem 1.8rem;
   border-radius: 30px;
   text-decoration: none;
-  left: 30%;
-  font-size: 18px;
+  
+  font-size: 1.8rem;
   color: white;
 }
 /*Features */
@@ -96,18 +110,25 @@
 .features-content {
    display: flex;
     align-items: flex-end;
-  gap: 0rem;
+ 
+  gap: 3.2rem;
    
    
 }
+.features-content .div-img {
+  
+    height: 70%;
+    width: 70%;
+}
 .features-content img {
   
-    height: 60%;
-    width: 60%;
+    height: 100%;
+    width: 100%;
 }
 .features-content content {
   width: 100%;
   height: 100%;
+  
 }
 .features-content p {
     font-size: 1.6rem;
@@ -198,11 +219,11 @@
   margin:  6.4rem;
 
   background-color: black;
-  padding: 12px 18px;
+  padding: 1.2rem 1.8rem;
   border-radius: 30px;
   text-decoration: none;
 
-  font-size: 18px;
+  font-size: 1.8rem;
   color: white;
 
 }
@@ -212,7 +233,7 @@
   /* The image used */
   background-image: linear-gradient(rgba(0, 0, 0,0.3),rgba(0, 0, 0,0.2)), url("../img/pexels-alexander-dummer-1912868.jpg");
 
-  min-height: 480px;
+  min-height: 48rem;
 
   /* Center and scale the image nicely */
   background-position: center;
@@ -226,9 +247,9 @@
   position: absolute;
   left: 0;
   height: 60vh;
-  margin: 20px;
-  max-width: 350px;
-  padding: 16px;
+  margin: 2rem;
+  max-width: 35rem;
+  padding: 1.6rem;
   top: 3.2rem;  
   background-color:#FCFCFC;
   border-radius: 10px;
@@ -239,7 +260,7 @@
 input[type=text], input[type=text] ,textarea{
   width: 100%;
   padding: 15px;
-  margin: 5px 0 22px 0;
+  margin: 0.5rem 0 2.2rem 0;
   border: none;
   background: #f1f1f1;
   border-radius: 30px;
@@ -257,7 +278,7 @@ input[type=text]:focus{
 .btn {
   background-color: black;
   color: white;
-  padding: 16px 20px;
+  padding: 1.6rem 2rem;
   border: none;
   cursor: pointer;
   width: 100%;
@@ -295,7 +316,7 @@ margin-top: 1px;
   vertical-align: top;
 }
 .footer-left,.footer-center{
-  padding: 30px;
+  padding: 3rem;
 }
 /* Footer left */
 
@@ -309,20 +330,20 @@ margin-top: 1px;
 
 .footer-distributed .footer-links {
   color: black;
-  margin: 20px 0 12px;
+  margin: 2rem 0 1.2rem;
 }
 
 .footer-distributed .footer-links a {
   display: inline-block;
-  margin-top: 20px;
-margin-right: 8px;
+  margin-top: 2rem;
+margin-right: 0.8rem;
   line-height: 1.8;
   text-decoration: none;
   color: inherit;
 }
 .footer-distributed .footer-company-name{
-  font-size: 14px;
-  margin-top: 20px;
+  font-size: 1.4rem;
+  margin-top: 2rem;
 }
 
 
@@ -334,13 +355,13 @@ margin-right: 8px;
 
 .footer-distributed .footer-center i {
 
-  font-size: 25px;
-  width: 38px;
-  height: 38px;
+  font-size: 2.5rem;
+  width: 3.8rem;
+  height: 3.8rem;
   border-radius: 50%;
   text-align: center;
-  line-height: 42px;
-  margin: 20px 35px;
+  line-height: 4.2rem;
+  margin: 2rem 3.5rem;
   
 }
 
@@ -350,7 +371,7 @@ margin-right: 8px;
   display: inline-block;
   color: black;
   vertical-align: middle;
-  margin: 10;
+  margin: 1rem;
 }
 
 
@@ -371,21 +392,21 @@ margin-right: 8px;
 
 
 .footer-distributed .footer-icons {
-  margin-top: 25px;
+  margin-top: 2.5rem;
 }
 
 .footer-distributed .footer-icons a {
   display: inline-block;
-  width: 35px;
-  height: 35px;
+  width: 3.5rem;
+  height: 3.5rem;
   cursor: pointer;
   border-radius: 2px;
-  font-size: 20px;
+  font-size: 2rem;
 
   text-align: center;
-  line-height: 45px;
-  margin-right: 3px;
-  margin-bottom: 25px;
+  line-height: 4.5rem;
+  margin-right: 0.3rem;
+  margin-bottom: 2.5rem;
 
 }
 .footer-links a:hover {
@@ -399,7 +420,7 @@ iframe{
 
 }
 .footer-icon{
-  width: 35px;
-  margin-bottom: 10px;
-  height: 35px;
+  width: 3.5rem;
+  margin-bottom: 1rem;
+  height: 3.5rem;
 }
