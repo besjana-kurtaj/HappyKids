@@ -82,6 +82,29 @@ Medium devices (landscape tablets, 768px and up)
   /**************************/
   
   @media (max-width: 75em) {
+    .header {
+   
+        width: 100%;
+      
+    
+    }
+    .logo img, footer img {
+       
+     
+        width: 20rem;
+        padding:1.2rem;
+        padding-bottom:1.6rem;
+      height: 10rem;
+    }
+  
+    .menu{
+        margin-right: 1.6rem;
+      
+      
+        font-size: 1.6rem;
+    }
+    
+ 
     html {
       /* 9px / 16px  */
       font-size: 56.25%;
@@ -118,7 +141,14 @@ Medium devices (landscape tablets, 768px and up)
             height: 100%;
 
             
-          }
+          } 
+          .facts{
+       
+            height: auto;
+            padding-bottom: 6.4rem;
+            width: 100%;
+        
+        }
    
   }
   
@@ -127,18 +157,48 @@ Medium devices (landscape tablets, 768px and up)
   /**************************/
   
   @media (max-width: 59em) {
+      
     html {
-      /* 8px / 16px = 0.5 = 50% */
-      font-size: 50%;
-    }
-    .hero {
+        /* 8px / 16px = 0.5 = 50% */
+        font-size: 50%;
+      }
+      .hero {
+          width: 100%;
+        
+      }
+      .hero-desc {
+          width: 50%;
+          height: auto;
+      }
+    .header {
+   
         width: 100%;
       
+    
     }
-    .hero-desc {
-        width: 50%;
+    .logo img, footer img {
+       
+     
+        width: 20rem;
+        padding:1.2rem;
+        padding-bottom:1.6rem;
+      height: 10rem;
+    }
+  
+    .menu{
+        margin-right: 1.6rem;
+      
+      
+        font-size: 1.6rem;
+    }
+    .facts{
+       
         height: auto;
+        padding-bottom: 6.4rem;
+        width: 100%;
+    
     }
+ 
     .grid {
   
         row-gap: 1.2rem;
@@ -170,6 +230,30 @@ Medium devices (landscape tablets, 768px and up)
   /**************************/
   
   @media (max-width: 44em) {
+    .header {
+   
+        width: 100%;
+      
+    
+    }
+    .logo img, footer img {
+       
+     
+        width: 20rem;
+        padding:1.2rem;
+        padding-bottom:1.6rem;
+      height: 10rem;
+    }
+  
+    .menu{
+        margin-right: 1.6rem;
+      
+      
+        font-size: 1.6rem;
+    }
+    
+ 
+
     .hero {
         width: 100%;
       
@@ -178,6 +262,26 @@ Medium devices (landscape tablets, 768px and up)
         width: 50%;
         height: auto;
     }
+    .facts{
+       
+        height: auto;
+        padding-bottom: 6.4rem;
+        width: 100%;
+    
+    }
+  }
+  @media (max-width: 681px){
+    .facts{
+       
+        height: auto;
+        padding-bottom: 6.4rem;
+        width: 100%;
+    
+    }
+    .grid-4 {
+        grid-template-columns: repeat(2,1fr);
+    }
+      
   }
   
   /**************************/
@@ -185,6 +289,47 @@ Medium devices (landscape tablets, 768px and up)
   /**************************/
   
   @media (max-width: 34em) {
+    .header {
+    
+        width: 100%;
+       
+    
+    }
+    .logo img, footer img {
+       
+        object-fit: cover;
+        width: 20rem;
+        padding:1.2rem;
+        padding-bottom:1.6rem;
+      height: 10rem;
+    }
+    .nav-bar .nav {
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+        gap: 1.2rem;
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+    .menu{
+        margin-right: 1.6rem;
+      
+        text-transform: uppercase;
+        color: black;
+        font-size: 18px;
+    }
+    
+    .menu:link, .menu:visited {
+        text-decoration: none;
+        color: #333;
+        transition: all 0.1s;
+    }
+    
+    .menu:hover, .menu:active {
+        text-decoration: none;
+        color: white;
+        border-bottom: 3px solid currentColor;
+    }
     .hero {
         width: 100%;
       
@@ -195,6 +340,13 @@ Medium devices (landscape tablets, 768px and up)
     }
     .hero-desc h1 {
         padding: 2.4rem;
+    }
+    .facts{
+       
+        height: auto;
+        padding-bottom: 6.4rem;
+        width: 100%;
+    
     }
 
 
