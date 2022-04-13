@@ -8,7 +8,7 @@ html {
 }
 body {
     font-family: "montserrat",sans-serif;
-    background-color: #F2F2F2;
+    background-color: white;
 
 }
 .container {
@@ -24,11 +24,14 @@ body {
 .grid {
     display: grid;
     justify-items: center;
+    justify-content: center;
     row-gap: 6.4rem;
     column-gap: 3.2rem;
     }
 .grid-3 {
         grid-template-columns: repeat(3,1fr);
+        justify-self: center;
+        align-self: center;
     }
 .grid-4 {
         grid-template-columns: repeat(4,1fr);
